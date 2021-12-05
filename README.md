@@ -1,7 +1,10 @@
 # Docks-Away
 Marina Dry Storage App
+
+```
 ## Main Goal of this project:
     - This website will be able to add, edit, delete, launch, stow, move customer's boat around a Dry Stack facility
+```
 
 ### Model:
     - This will follow the Agile(Adaptive Software Development Methods) Model
