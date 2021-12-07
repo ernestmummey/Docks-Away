@@ -1,4 +1,4 @@
-from backend import db
+from backend.config.sqlalchemy_config import db
 
 class Boats(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -12,3 +12,9 @@ class Boats(db.Model):
     stow = db.relationship('stows', backref='boats', lazy=True)
     # n:1
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    
+    
+    def __init__(self, length, brand, description):
+        self.length = length
+        self.brand = brand
+        self.description = description
