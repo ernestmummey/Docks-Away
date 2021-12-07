@@ -9,6 +9,7 @@ flask-sqlalchemy = "*"
 mysqlclient = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
