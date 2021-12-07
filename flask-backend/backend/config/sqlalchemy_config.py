@@ -1,4 +1,5 @@
-from backend import app
+from backend import app, db 
+
 import os 
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.eviron.get('DATABASE_URL')
