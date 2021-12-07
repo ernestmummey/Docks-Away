@@ -1,9 +1,10 @@
-from flask import Flask
-app = Flask(__name__)
+from backend import app
+
+
 
 @app.route("/")
 def index():
-    return 'Is this running correctly'
+    return 'Flask is up and runnning'
 
 
 if __name__=="__main__":
