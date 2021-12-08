@@ -1,6 +1,4 @@
-from backend import app
-
-
+from backend.config.sqlalchemy_config import app
 
 @app.route("/")
 def index():
