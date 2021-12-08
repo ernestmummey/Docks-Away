@@ -1,7 +1,9 @@
-from backend import app, db 
+from backend import app
+from flask_sqlalchemy import SQLAlchemy
+import os
 
-import os 
-
-app.config['SQLALCHEMY_DATABASE_URI'] = os.eviron.get('DATABASE_URL')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
 # disable signals as well as gaining extra memory
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
