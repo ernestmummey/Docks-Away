@@ -1,4 +1,4 @@
-from backend import db
+from backend.config.sqlalchemy_config import db
 
 class Storage(db.Model):
     id = db.Column(db.Integer, primary_key=True)
