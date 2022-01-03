@@ -9,11 +9,9 @@ Marina Dry Storage App
 #### Model:
     - This will follow the Agile(Adaptive Software Development Methods) Model
         - This is due to clarity on future task and will allow me to adapt to changing requirements
-        - The requirments change depending on the Marinas, location, heavy machinary as well as the boating industry is constatly changing
+        - The requirments change depending on the Marinas, location, heavy machinary as well as the boating industry as it is constatly changing
 
 #### Planning Stage:
-    - I would like for this  project to be completed by the end of January
-    - This project will remain free as it is a project to build my portfilio
     - This project will be geared towards a Dry Stack Facility
     - Be able to create, update, delete customers
     - Be able to create, update, delete boats
@@ -29,5 +27,4 @@ Marina Dry Storage App
     - I am going to use React and javascript for the frontend
     - Flask and python 3 for the backend
     - MySQL for the database due to relationships of the tables. 
-        - I shouldn't have to worry about scaling as this is just a project however, vertical scaling would be the best in my situation do to one computer
-        - That being said horizontal scaling could be beneficial if i was able to use several servers at the same price to spread out the data
+        
