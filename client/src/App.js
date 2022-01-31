@@ -1,11 +1,13 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import Landing from './views/Landing'
 
 
 const App = () => {
   return (
     <div>
-      <h1>Hopefully this start up</h1>
+      <Landing/>
     </div>
   )
 };
