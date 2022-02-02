@@ -8,4 +8,4 @@ const NavSideBar = () => {
     )
 }
 
-export default NavSideBar
+export default NavSideBar;
