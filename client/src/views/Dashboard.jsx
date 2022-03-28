@@ -1,15 +1,15 @@
 import React from 'react';
 import HeaderBar from '../components/HeaderBar'
-import LaunchTable from '../components/LaunchTable'
-import BoatsOutTable from '../components/BoatsOutTable'
+import BoatLaunchView from './BoatLaunchView'
+import BoatsOutView from './BoatsOutView'
 
 
 const Dashboard = () => {
     return (
         <div>
             <HeaderBar/>
-            <LaunchTable/>
-            <BoatsOutTable/>
+            <BoatLaunchView/>
+            <BoatsOutView/>
         </div>
     )
 };
