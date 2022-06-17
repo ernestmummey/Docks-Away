@@ -1,14 +1,17 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
-import Dashboard from './views/Dashboard'
+import { Route, Routes } from 'react-router-dom';
+import './App.scss';
+import Layout from './components/Layout';
+
 
 
 const App = () => {
   return (
-    <div>
-      <Dashboard/>
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={ <Layout/> }/>
+      </Routes>
+    </>
   )
 };
 
