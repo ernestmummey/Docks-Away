@@ -1,0 +1,31 @@
+.table {
+    width: 100%;
+    display: table;
+
+    thead {
+        display: table-header-group;
+        background-color: grey;
+        font-weight: bold;
+        
+    }
+
+    tr{
+
+        th {
+            display: table-cell;
+            padding: 1em;
+            border: .25rem black solid
+
+        }
+    }
+
+    tbody {
+        display: table-row-group;
+
+        tr {
+            th {
+                display: table cell;
+            }
+        }
+    }
+}
