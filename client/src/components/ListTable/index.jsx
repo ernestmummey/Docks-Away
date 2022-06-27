@@ -2,17 +2,14 @@ import './index.scss'
 
 
 
-const ListTable = () => {
+const ListTable = ({ data }) => {
     return (
         <div className='table'>
             <thead>
                 <tr>
-                    {/* map */}
-                    <th>fill data</th>
-                    <th>fill data</th>
-                    <th>fill data</th>
-                    <th>fill data</th>
-                    <th>fill data</th>
+                    {data.map((header) => (
+                    <th>{ header }</th>
+                    ))}
                 </tr>
             </thead>
             <tbody>
